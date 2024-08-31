@@ -1,6 +1,6 @@
 # DSA
 **inserting and sorting**
-Reverse order( ABCD=DCBA)
+?? program that removes out-of-stock products from the array.
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -25,7 +25,7 @@ int main(){
 }
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 **inserting sorting**
-
+? program that removes out-of-stock products from the array.
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -52,3 +52,32 @@ int main(){
 }
 
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+**insertion and deletion**
+? how many words in a list start with a specific letter!!
+
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n;
+    
+    string word[n];
+    for(int i=0;i<n; i++){
+        cin>> word[i];
+    }
+    
+    char letter;
+    cin >> letter;
+    
+    int count=0;
+    
+    for( int i=0; i< n; i++){
+        if( word[i][0]== letter){
+            count++;
+        }
+    }
+        cout << count << endl;
